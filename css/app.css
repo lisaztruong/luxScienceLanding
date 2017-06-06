@@ -1328,7 +1328,7 @@ dialog {
     .directory__content { height: auto !important;}
     #sb_instagram.sbi_col_3 #sbi_images .sbi_item, #sb_instagram.sbi_col_4 #sbi_images .sbi_item, #sb_instagram.sbi_col_5 #sbi_images .sbi_item, #sb_instagram.sbi_col_6 #sbi_images .sbi_item
     { width: 25% !important; }
-    
+
 }
 @media only screen and (max-width:480px) {
 .sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready{height: 200px !important; }
@@ -3738,6 +3738,27 @@ nav.nav--main .nav__trigger.new-nav svg {
     margin-top: 2rem;
     font-weight: 400;
     border: 2px solid #fcb61d;
+    color: #fff;
+    background: #fcb61d;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.button--border:hover {
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    color: #fff;
+    background: #fcb61d
+}
+
+/*original button--border
+
+.button--border {
+    margin-top: 2rem;
+    font-weight: 400;
+    border: 2px solid #fcb61d;
     color: #fcb61d;
     letter-spacing: 2px;
     text-transform: uppercase
@@ -3751,6 +3772,8 @@ nav.nav--main .nav__trigger.new-nav svg {
     color: #fff;
     background: #fcb61d
 }
+
+*/
 
 .button--modal {
     margin-top: 2rem;
@@ -4102,17 +4125,17 @@ nav.nav--main .nav__trigger.new-nav svg {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    margin: auto;
-    top: 0;
+    /*margin: auto;*/
+    top: 100px;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     text-align: center;
-    height: 40%
+    /*height: 40%*/
 }
 
-.hero .hero__content svg {
+/*.hero .hero__content svg {
     height: 4.2rem
 }
 
@@ -4126,7 +4149,7 @@ nav.nav--main .nav__trigger.new-nav svg {
     .hero .hero__content svg {
         width: 12rem
     }
-}
+}*/
 
 .hero .hero__content h1 {
     text-align: center;
@@ -4170,6 +4193,216 @@ nav.nav--main .nav__trigger.new-nav svg {
         font-size: 3.71rem
     }
 }
+
+/*lisa*/
+/*hero banner new slogan*/
+.hero .hero__content slogan {
+    text-align: center;
+    margin: .7rem 0 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content slogan {
+        font-size: 2rem;
+        margin: 1.7rem 0 0
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content slogan {
+        font-size: 3rem
+    }
+}
+
+.hero .hero__content slogan span {
+    color: #fcb61d;
+    font-family: jbt-annabelle, sans-serif;
+    display: block;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 2.4rem
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content slogan span {
+        line-height: 1.5;
+        font-size: 3rem
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content slogan span {
+        font-size: 3.71rem
+    }
+}
+/*end hero banner new slogan*/
+
+/*lisa*/
+/*hero banner new slogan-mini*/
+.hero .hero__content slogan-mini {
+    text-align: center;
+    margin: .7rem 0 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content slogan-mini {
+        font-size: 2rem;
+        margin: 1.7rem 0 0
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content slogan-mini {
+        font-size: 3rem
+    }
+}
+
+.hero .hero__content slogan-mini span {
+    color: #fcb61d;
+    font-family: jbt-annabelle, sans-serif;
+    display: block;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 2.4rem
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content slogan-mini span {
+        line-height: 1.5;
+        font-size: 3rem
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content slogan-mini span {
+        font-size: 3.71rem
+    }
+}
+
+.hero .hero__content slogan-mini bigger{
+    color: #fcb61d;
+    display: block;
+    line-height: 100.4;
+    font-weight: 700;
+    font-size: 2.4rem
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content slogan-mini bigger{
+        line-height: 1.5;
+        font-size: 3rem
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content slogan-mini bigger{
+        font-size: 3.71rem
+    }
+}
+/*end hero banner new slogan mini*/
+
+
+/*lisa*/
+/*hero banner new logo font lux*/
+.hero .hero__content logo-lux {
+    text-align: center;
+    margin: .7rem 0 0;
+    color: #0000ff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content logo-lux {
+        font-size: 2rem;
+        margin: 1.7rem 0 0
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content logo-lux {
+        font-size: 3rem
+    }
+}
+
+.hero .hero__content logo-lux span {
+    color: #fcb61d;
+    font-family: jbt-annabelle, sans-serif;
+    display: block;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 2.4rem
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content logo-lux span {
+        line-height: 1.5;
+        font-size: 3rem
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content logo-lux span {
+        font-size: 3.71rem
+    }
+}
+/*end hero banner new logo font lux*/
+
+/*lisa*/
+/*hero banner new logo font science*/
+.hero .hero__content logo-science {
+    text-align: center;
+    margin: .7rem 0 0;
+    color: #ffa500;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content logo-science {
+        font-size: 2rem;
+        margin: 1.7rem 0 0
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content logo-science {
+        font-size: 3rem
+    }
+}
+
+.hero .hero__content logo-science span {
+    color: #fcb61d;
+    font-family: jbt-annabelle, sans-serif;
+    display: block;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 2.4rem
+}
+
+@media only screen and (min-width:40.063em) {
+    .hero .hero__content logo-science span {
+        line-height: 1.5;
+        font-size: 3rem
+    }
+}
+
+@media only screen and (min-width:64.063em) {
+    .hero .hero__content logo-science span {
+        font-size: 3.71rem
+    }
+}
+/*end hero banner new logo font science*/
 
 .hero__logo {
     width: 14rem;
@@ -5348,7 +5581,7 @@ footer .footer-bottom .footer-wrapper:after {
     footer .footer-bottom .footer-wrapper {
         max-width: 43rem
     }
-     
+
 
 }
 
@@ -5356,7 +5589,7 @@ footer .footer-bottom .footer-wrapper:after {
     footer .footer-bottom .footer-wrapper ul.social-icons {
         padding-top: .5rem
     }
-     
+
 }
 
 @media only screen and (max-width:40em) {
@@ -5505,7 +5738,7 @@ footer .footer-bottom .footer-wrapper ul.copyright li:first-child {
     footer .footer-bottom .footer-wrapper ul.copyright li:first-child {
         display: block
     }
-   
+
 }
 
 @media only screen and (max-width:40em) {
@@ -7114,8 +7347,8 @@ button {
     .event-info-wrapper .event-info:after {
         clear: both
     }
-    
-   
+
+
 }
 
 .event-info-wrapper .event-info--no-padding {
@@ -8301,7 +8534,7 @@ button {
     .press-wrapper .event-info-wrapper .event-info .event-panel .calendar-wrapper .sub-calendar .calendar {
         width: 3.5rem
     }
-     
+
 }
 
 .press-wrapper .event-info-wrapper .event-info .event-panel .calendar-wrapper .sub-calendar .calendar__month {
@@ -8351,7 +8584,7 @@ button {
     .press-wrapper .event-info-wrapper .event-info .event-panel .calendar-wrapper .calendar__information {
         padding-right: 0
     }
-   
+
 }
 
 .press-wrapper .event-info-wrapper .event-info .event-panel .calendar-wrapper .calendar__information .press-calendar-title {
@@ -8401,7 +8634,7 @@ button {
     .press-wrapper .event-info-wrapper .event-info .event-panel .calendar-wrapper .calendar__information ul li:nth-child(2) {
         margin-left: 1rem
     }
-    
+
 }
 
 .press-wrapper .event-info-wrapper .event-info .event-panel .calendar-wrapper .calendar__information ul li:hover p {
@@ -8624,7 +8857,7 @@ button {
     .contact__information ul li h2.sponsors {
         font-size: 1.5rem
     }
-    
+
 }
 
 @media only screen and (min-width:40.063em) {
@@ -8873,7 +9106,7 @@ button {
     }
     .upcoming-events__content__slider .slick-track{width: 100% !important;}
     .upcoming-events__content__slider .event-slide{width: 100% !important;}
-    
+
     .sbi_images .sbi_photo_wrap a.sbi_photo{width: 50% !important;height: 200px !important;}
 }
 
@@ -9377,9 +9610,9 @@ button {
 
 
 @media only screen and (max-width:600px){
-    
+
     .regerster-form .form-group{width:100% !important;}
-    
+
 }
 
 .regerster-form .form-row{margin: 0 -15px 0 -15px;display: inline-block;width:100%;}
@@ -9460,4 +9693,3 @@ button {
     /*margin: auto;*/
     /*margin-right: 100px;*/
 }
-
